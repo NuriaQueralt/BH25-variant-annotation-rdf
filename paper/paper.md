@@ -25,16 +25,16 @@ authors_short: Queralt-Rosinach \emph{et al.}
 ---
 
 # Introduction
-[//]: # In the DBCLS BioHackathon 2024, variant and CT projects. Precision oncology focus.
+<!-- In the DBCLS BioHackathon 2024, variant and CT projects. Precision oncology focus. -->
 
 Our objective was to develop an RDF model for the GA4GH VRS v2 standard driven by the use case of matching patients to clinical trials.
 
 # Related work
-[//]: # GA4GH VRS, v1 -> v2
+<!-- # GA4GH VRS, v1 -> v2 -->
 
-[//]: # In the SWAT4HCLS BioHackathon 2025, 
+<!-- # In the SWAT4HCLS BioHackathon 2025, -->
 
-[//]: # CT models, RDF?
+<!-- # CT models, RDF? -->
 
 Our contributions to current research:
 1. **GA4GH VRS RDF for semantic clinical trials**: .
