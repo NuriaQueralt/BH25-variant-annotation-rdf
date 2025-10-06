@@ -20,7 +20,7 @@ biohackathon_name: "DBCLS BioHackathon 2025"
 biohackathon_url:   "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
 group: genome-variation
-git_url: https://github.com/biohackathon-japan/BH25-variant-annotation-rdf
+git_url: https://github.com/NuriaQueralt/BH25-variant-annotation-rdf
 authors_short: Queralt-Rosinach \emph{et al.}
 ---
 
@@ -39,6 +39,7 @@ Our objective was to develop an RDF model for the GA4GH VRS v2 standard driven b
 Our contributions to current research:
 1. **GA4GH VRS RDF for semantic clinical trials**: .
 2. **Structural variants representation**: .
+3. **Precision oncology use case**: .
 
 # Method
 ## Materials
@@ -59,7 +60,7 @@ Our contributions to current research:
 
 ## Potential new use cases
 1. **Structural variants representation**: From our collaboration with the _Pangenome graph_ group ... .
-2. **Precicion oncology**: From our collaboration with the _Platform for precision medicine_ group ... .
+2. **Precision oncology**: From our collaboration with the _Platform for precision medicine_ group ... .
 
 
 # Discussion
@@ -82,7 +83,7 @@ We welcome feedback and contributions from the community. Please, use the issue 
 ...
 
 ## Acknowledgements
-We thank the organizers of the DBCLS BioHackathon 2025 for providing the venue and support for this work. We also acknowledge the developers of GA4GH VRS for providing the foundational model that made this work possible. We would like to thank for all the informative and inspirational discussions maintained along the week. 
+We thank the organizers of the DBCLS BioHackathon 2025 for providing the venue and support for this work. We also acknowledge the developers of GA4GH VRS for providing the foundational model that made this work possible. We would like to thank the contributions of Toshiaki Katayama, Jose Labra, Mana Nagasaki, Shuhua Xu, Yosuke Kawai, Raúl Mateos, and Claude Nanjo who shared their needs, tools and domain knowledge for all the informative and inspirational discussions maintained along the week. 
 
 ...
 
