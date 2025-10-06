@@ -80,11 +80,7 @@ Our contributions to current research:
 
 We welcome feedback and contributions from the community. Please, use the issue and pull requests system at https://github.com/NuriaQueralt/ga4gh-vrs-rdf-schema
 
-...
-
 ## Acknowledgements
 We thank the organizers of the DBCLS BioHackathon 2025 for providing the venue and support for this work. We also acknowledge the developers of GA4GH VRS for providing the foundational model that made this work possible. We would like to thank the contributions of Toshiaki Katayama, Jose Labra, Mana Nagasaki, Shuhua Xu, Yosuke Kawai, Raúl Mateos, and Claude Nanjo who shared their needs, tools and domain knowledge for all the informative and inspirational discussions maintained along the week. 
-
-...
 
 ## References
