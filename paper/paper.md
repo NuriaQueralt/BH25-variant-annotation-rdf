@@ -1,161 +1,88 @@
 ---
-title: 'DBCLS BioHackathon 2025 report: Template for the very long title'
-title_short: 'BioHackJP25: How we found breakfast'
+title: 'Variant annotation in RDF for clinical trials matching'
+title_short: 'Variants for clinical trials'
 tags:
-  - Semantic web
-  - Ontologies
-  - Workflows
+  - Variant annotation
+  - GA4GH VRS
+  - RDF
+  - Clinical trials
 authors:
-  - name: First Author
+  - name: Núria Queralt-Rosinach
+    orcid: 0000-0003-0169-8159
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
 affiliations:
-  - name: First Affiliation
+  - name: Leiden University Medical Center
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
-    index: 2
 date: 15 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
 biohackathon_url:   "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
-group: YOUR-PROJECT-NAME-GOES-HERE
-# URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
-# This is the short authors description that is used at the
-# bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+group: genome-variation
+git_url: https://github.com/biohackathon-japan/BH25-variant-annotation-rdf
+authors_short: Queralt-Rosinach \emph{et al.}
 ---
 
 # Introduction
+[//]: # In the DBCLS BioHackathon 2024, variant and CT projects. Precision oncology focus.
 
-As part of the DBCLS BioHackathon 2025, we here report...
+Our objective was to develop an RDF model for the GA4GH VRS v2 standard driven by the use case of matching patients to clinical trials.
 
-## Author information
+# Related work
+[//]: # GA4GH VRS, v1 -> v2
 
-Information about the authors is given in the [YAML](https://en.wikipedia.org/wiki/YAML) format at the top of this template.
-For authors you provide their names, their affiliations, and ideally their [ORCID](https://orcid.org/)
-identifier. For affiliations, the [Research Organization Registry](https://ror.org/) (ROR) identifier can be given.
-For example, this is the author information for this template:
+[//]: # In the SWAT4HCLS BioHackathon 2025, 
 
-```yaml
-authors:
-  - name: First Author
-    affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-affiliations:
-  - name: First Affiliation
-    index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
-    index: 2
-```
+[//]: # CT models, RDF?
 
-# Formatting
+Our contributions to current research:
+1. **GA4GH VRS RDF for semantic clinical trials**: .
+2. **Structural variants representation**: .
 
-This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
+# Method
+## Materials
+- Use of standards
+- Use case driven
 
-## Subsection level 2
-
-Please keep sections to a maximum of only two levels.
-
-## Tables
-
-Tables can be added in the following way, though alternatives are possible:
-
-```markdown
-Table: Note that table caption is automatically numbered and should be
-given before the table itself.
-
-| Header 1 | Header 2 |
-| -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
-```
-
-This gives:
-
-Table: Note that table caption is automatically numbered and should be
-given before the table itself.
-
-| Header 1 | Header 2 |
-| -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
-
-## Figures
-
-A figure is added with:
-
-```markdown
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
-```
-
-This gives:
-
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
-
-Figures can be scaled by adding the width or height to the Markdown like this:
-
-```markdown
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png){ width=50px }
-```
-
-# Other main section on your manuscript level 1
-
-Lists can be added with:
-
-1. Item 1
-2. Item 2
-
-# Citation Typing Ontology annotation
-
-You can use [CiTO](http://purl.org/spar/cito/2018-02-12) annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
-Using this template, you can cite an article and indicate _why_ you cite that article, for instance DisGeNET-RDF [@citesAsAuthority:Queralt2016].
-
-The syntax in Markdown is as follows: a single intention annotation looks like
-`[@usesMethodIn:Krewinkel2017]`; two or more intentions are separated
-with colons, like `[@extends:discusses:Nielsen2017Scholia]`. When you cite two
-different articles, you use this syntax: `[@citesAsDataSource:Ammar2022ETL; @citesAsDataSource:Arend2022BioHackEU22]`.
-
-Possible CiTO typing annotation include:
-
-* citesAsDataSource: when you point the reader to a source of data which may explain a claim
-* usesDataFrom: when you reuse somehow (and elaborate on) the data in the cited entity
-* usesMethodIn
-* citesAsAuthority
-* citesAsEvidence
-* citesAsPotentialSolution
-* citesAsRecommendedReading
-* citesAsRelated
-* citesAsSourceDocument
-* citesForInformation
-* confirms
-* documents
-* providesDataFor
-* obtainsSupportFrom
-* discusses
-* extends
-* agreesWith
-* disagreesWith
-* updates
-* citation: generic citation
+## Collaborations
+- **Pangenome graphs**:
+- **Personalized medicine platform**:
 
 
 # Results
+## GA4GH VRS model
+
+## Clinical trials model  
+
+## Implementation of GA4GH VRS RDF schema v2
+
+## Potential new use cases
+1. **Structural variants representation**: From our collaboration with the _Pangenome graph_ group ... .
+2. **Precicion oncology**: From our collaboration with the _Platform for precision medicine_ group ... .
 
 
 # Discussion
 
+## Impact
+
+1. **ERDERA**: .
+2. **Pangenome graphs**: .
+3. **Platform for precision medicine**: .
+4. **GA4GH BRCA GIF**: .
+5. **SWAT4HCLS community**: .
+
+## Future work
+
+- Update current GA4GH VRS RDF model expressed in ShEx to v2
+- RDFization plan: Annotate variant data in the [Phenopackets store](https://github.com/monarch-initiative/phenopacket-store/blob/main/notebooks/ADA/phenopackets/PMID_28823388_3-month-oldgirl.json) and use [ShExML tool](https://shexml.herminiogarcia.com/) in a RDFization workflow.
+
+We welcome feedback and contributions from the community. Please, use the issue and pull requests system at https://github.com/NuriaQueralt/ga4gh-vrs-rdf-schema
+
 ...
 
 ## Acknowledgements
+We thank the organizers of the DBCLS BioHackathon 2025 for providing the venue and support for this work. We also acknowledge the developers of GA4GH VRS for providing the foundational model that made this work possible. We would like to thank for all the informative and inspirational discussions maintained along the week. 
 
 ...
 
